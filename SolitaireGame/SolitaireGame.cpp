@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+using namespace std;
+
+#include "Card.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+    Card c1;
+    cout << c1.getFace();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
